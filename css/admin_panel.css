@@ -1,0 +1,248 @@
+body {
+    height:2300px;
+    margin:0px; padding:0px;
+    background-color: #EEE;
+}
+
+div.red_bar {
+    position:absolute;  
+    width:100%; height:50px;
+    background-color:rgba(255, 0, 0, 0.918);                 
+}
+
+span.AdminPanel {
+    position:absolute; top:1px; left:30px;
+    font-family:sans-serif; font-weight:bold; font-size:40px; color: white;
+}
+
+div.dashboard {
+    position:absolute; top:100px; left:300px;
+    width:300px; height:100px;
+    background-color:rgba(255, 0, 0, 0.918);
+    border-style:solid; border-color:red; border-radius:30px;
+}
+
+div.members {
+    position:absolute; top:100px; left:650px;
+    width:300px; height:100px;
+    background-color:rgba(255, 0, 0, 0.918);
+    border-style:solid; border-color:red; border-radius:30px;
+}
+
+span.mmm {
+    font-family:sans-serif; font-weight:bold; font-size:30px; color:white;
+    padding:0px 0px 0px 80px;
+}
+
+span.dash {
+    font-family:sans-serif; font-weight:bold; font-size:30px; color:white;
+    padding:0px 0px 0px 80px;
+}
+
+div.main_form {
+    position:absolute; top:300px; left:300px;
+    width:950px; height:400px; 
+    border-style:solid; border-width:2px; border-color:rgba(230, 230, 230, 0.945);
+    background-color:white;
+    border-radius:30px;
+}
+
+div.clothes_form {
+    position:absolute; top:800px; left:300px;
+    width:950px; height:400px; 
+    border-style:solid; border-width:2px; border-color:rgba(230, 230, 230, 0.945);
+    background-color:white;
+    border-radius:30px;
+}
+
+div.gears_form {
+    position:absolute; top:1300px; left:300px;
+    width:950px; height:400px; 
+    border-style:solid; border-width:2px; border-color:rgba(230, 230, 230, 0.945);
+    background-color:white;
+    border-radius:30px;
+}
+
+div.delete_main_form {
+    position:absolute; top:1800px; left:300px;
+    width:950px; height:200px; 
+    border-style:solid; border-width:2px; border-color:rgba(230, 230, 230, 0.945);
+    background-color:white;
+    border-radius:30px;
+}
+
+div.delete_clothes_form {
+    position:absolute; top:1810px; left:620px;
+    width:300px; height:150px; 
+    background-color:white;
+    border-radius:30px;
+}
+
+div.delete_gears_form {
+    position:absolute; top:1810px; left:950px;
+    width:300px; height:150px; 
+    background-color:white;
+    border-radius:30px;
+}
+
+input.pro_name {
+    position:absolute; top:70px; left:50px;
+    width:300px; height:40px;
+    background-color:#EEEEEE;
+    border-style:solid; border-width:2px; border-color:#EEEEEE;
+    font-size:medium;
+    padding-left:20px;
+    border-radius:30px; 
+}
+
+input.pro_price {
+    position:absolute; top:130px; left:50px;
+    width:300px; height:40px;
+    background-color:#EEEEEE;
+    border-style:solid; border-width:2px; border-color:#EEEEEE;
+    font-size:medium;
+    padding-left:20px;
+    border-radius:30px;
+}
+
+input.pro_id {
+    position:absolute; top:190px; left:50px;
+    width:300px; height:40px;
+    background-color:#EEEEEE;
+    border-style:solid; border-width:2px; border-color:#EEEEEE;
+    font-size:medium;
+    padding-left:20px;
+    border-radius:30px;
+}
+
+input.delete_id {
+    position:absolute; top:30px; left:50px;
+    width:200px; height:40px;
+    background-color:#EEEEEE;
+    border-style:solid; border-width:2px; border-color:#EEEEEE;
+    font-size:medium;
+    padding-left:20px;
+    border-radius:30px;
+}
+
+input.uploader {
+    position:absolute; top:245px; left:70px;
+    color:red; 
+}
+
+button.Upload {
+    position:absolute; top:280px; left:50px;
+    width:300px; height:40px;
+    background-color:red; border-color:red; border-style:solid;
+    color:white; font-family:sans-serif; font-size:large; font-weight:bold;
+    border-radius:30px;
+}
+
+button.delete_btn {
+    position:absolute; top:100px; left:50px;
+    width:200px; height:40px;
+    background-color:red; border-color:red; border-style:solid;
+    color:white; font-family:sans-serif; font-size:large; font-weight:bold;
+    border-radius:30px;
+}
+
+img.ftched_img {
+    position:absolute; top:350px; left:900px;
+    width:234px; height:234px;
+}
+
+img.ftched_img2 {
+    position:absolute; top:850px; left:900px;
+    width:234px; height:234px;
+}
+
+img.ftched_img3 {
+    position:absolute; top:1350px; left:900px;
+    width:234px; height:234px;
+}
+
+span.to_main {
+    position:absolute; top:20px; left:60px;
+    font-family:sans-serif; font-size:large; font-weight:bold; color:red;
+}
+
+span.to_clothes {
+    position:absolute; top:20px; left:60px;
+    font-family:sans-serif; font-size:large; font-weight:bold; color:red;
+}
+
+span.to_gears {
+    position:absolute; top:20px; left:60px;
+    font-family:sans-serif; font-size:large; font-weight:bold; color:red;
+}
+
+span.ftched_pro_name {
+    position:absolute; top:590px; left:975px;
+    font-family:sans-serif; font-size:medium; font-weight:bold;
+}
+
+span.ftched_pro_price {
+    position:absolute; top:620px; left:980px;
+    font-family:sans-serif; font-size:medium; font-weight:bold;
+}
+
+span.ftched_pro_id {
+    position:absolute; top:620px; left:1020px;
+    font-family:sans-serif; font-size:medium; font-weight:bold;                
+}
+
+span.ftched_pro_name2 {
+    position:absolute; top:1100px; left:975px;
+    font-family:sans-serif; font-size:medium; font-weight:bold;
+}
+
+span.ftched_pro_price2 {
+    position:absolute; top:1130px; left:975px;
+    font-family:sans-serif; font-size:medium; font-weight:bold;
+}
+
+span.ftched_pro_id2 {
+    position:absolute; top:1130px; left:1020px;
+    font-family:sans-serif; font-size:medium; font-weight:bold;                
+}
+
+span.ftched_pro_name3 {
+    position:absolute; top:1600px; left:975px;
+    font-family:sans-serif; font-size:medium; font-weight:bold;
+}
+
+span.ftched_pro_price3 {
+    position:absolute; top:1650px; left:975px;
+    font-family:sans-serif; font-size:medium; font-weight:bold;
+}
+
+span.ftched_pro_id3 {
+    position:absolute; top:1650px; left:1020px;
+    font-family:sans-serif; font-size:medium; font-weight:bold;                
+}
+
+span.ftched_count {
+    position:absolute; top:155px; left:430px;
+    font-family:sans-serif; font-size:30px; font-weight:bold; color:white;                
+}
+
+a.Home {
+    position:absolute; top:300px; left:0px;
+    color:white; font-size:30px; font-weight:bold; font-family:sans-serif;
+    text-decoration:none;
+    background-color:red; padding:12px 50px 12px 50px;
+}
+
+a.Clothes {
+    position:absolute; top:365px; left:0px;
+    color:white; font-size:25px; font-weight:bold; font-family:sans-serif;
+    text-decoration:none;
+    background-color:red; padding:15px 41px 15px 50px;
+}
+
+a.Gears {
+    position:absolute; top:435px; left:0px;
+    color:white; font-size:30px; font-weight:bold; font-family:sans-serif;
+    text-decoration:none;
+    background-color:red; padding:15px 48px 15px 50px;
+}

@@ -1,0 +1,248 @@
+body {
+    height:4000px;
+    margin:0px; padding:0px;
+}
+
+img.main_img {
+    position:absolute; top:150px;
+    z-index:1;
+}
+
+img.imag6 {
+    position:absolute; bottom:0px; left:0px;
+}
+
+img.logo {
+    position:relative; top:260px; left:1010px;
+    z-index:2;
+}
+
+span.call {
+    position:absolute; top:80px; right:50px;
+    font-size:20px; font-family:sans-serif; color: red; font-weight:bold;
+}
+
+span.Hiking {
+    font-size:70px; font-family:sans-serif; color: white; font-weight:bold;
+    position:absolute; top:410px; right:125px;
+    z-index: 3;
+}
+
+span.Gears {
+    font-size:60px; font-family:sans-serif; color: white; font-weight:bold;
+    position:absolute; top:480px; right:110px;
+    z-index: 4;
+}
+
+span.Gears2 {
+    font-size:60px; font-family:sans-serif; color: white; font-weight:bold;
+    position:absolute; top:540px; right:120px;
+    z-index: 5;
+}
+
+span.CountryShop {
+    position:absolute; top:75px; left:30px;
+    font-family:sans-serif; font-weight:bold; font-size:40px; color: red;
+}
+
+span.email_para {
+    position:absolute; top:35px; left:0px; width:150px;
+    font-size:15px; font-family:sans-serif; color:#E0E0E0; font-weight:bold;     
+}
+
+span.phone {
+    font-size:25px; font-family:sans-serif; color:white; font-weight:bold;     
+}
+
+span.phone_para {
+    position:absolute; top:35px; left:0px; width:250px;
+    font-size:15px; font-family:sans-serif; color:#E0E0E0; font-weight:bold;     
+}
+
+span.location {
+    font-size:20px; font-family:sans-serif; color:white; font-weight:bold;
+}
+
+span.location_para {
+    position:absolute; top:35px; left:0px; width:200px;
+    font-size:15px; font-family:sans-serif; color:#E0E0E0; font-weight:bold;     
+}
+
+span.del_free {
+    position:absolute; top:150px; left:100px;
+    font-size:25px; font-family:sans-serif; color:white; font-weight:bold;
+}
+
+span.return {
+    position:absolute; top:150px; left:500px;
+    font-size:25px; font-family:sans-serif; color:white; font-weight:bold;
+}
+
+span.warranty {
+    position:absolute; top:150px; left:900px;
+    font-size:25px; font-family:sans-serif; color:white; font-weight:bold;
+}
+
+span.customer {
+    position:absolute; top:500px; left:100px;
+    font-size:25px; font-family:sans-serif; color:white; font-weight:bold;
+}
+
+a.email {
+    font-size:25px; font-family:sans-serif; color:white; font-weight:bold;
+    text-decoration:none;     
+}
+
+a.location {
+    font-size:20px; font-family:sans-serif; color:white; font-weight:bold;
+    text-decoration:none;     
+}
+
+a.cntct {
+    position:absolute; top:550px; left:100px;
+    font-size:15px; font-family:sans-serif; color:#E0E0E0; font-weight:bold;
+    text-decoration:none;
+}
+
+a.rtrns {
+    position:absolute; top:550px; left:300px;
+    font-size:15px; font-family:sans-serif; color:#E0E0E0; font-weight:bold;
+    text-decoration:none;
+}
+
+a.pymnt {
+    position:absolute; top:550px; left:500px;
+    font-size:15px; font-family:sans-serif; color:#E0E0E0; font-weight:bold;
+    text-decoration:none;
+}
+
+a.login {
+    position:absolute; top:10px; right:20px; 
+    color:white; font-size:20px; font-weight:bold; font-family: Verdana;        
+    text-decoration:none;
+}
+
+a.sign_up {
+    position:absolute; top:10px; right:120px; 
+    color:white; font-size:20px; font-weight:bold; font-family:Verdana;
+    text-decoration:none;
+}
+
+a.Clothes {
+    position:absolute; top:85px; left:520px; 
+    color:red; font-size:20px; font-weight:bold; font-family:Verdana;
+    text-decoration:none;
+}
+
+a.Tools {
+    position:absolute; top:85px; left:640px; 
+    color:red; font-size:20px; font-weight:bold; font-family:Verdana;
+    text-decoration:none;
+}
+
+a.Clothes2 {
+    position:absolute; left:550px; top:20px; 
+    color:white; font-size:25px; font-weight:bold; font-family:Verdana;
+    text-decoration:none;
+}
+
+a.Tools2 {
+    position:absolute; left:700px; top:20px;
+    color:white; font-size:25px; font-weight:bold; font-family:Verdana;
+    text-decoration:none;
+}
+
+a.about {
+    position:absolute; top:85px; left:740px; 
+    color:red; font-size:20px; font-weight:bold; font-family:Verdana;
+    text-decoration:none;
+}
+
+a.buy {
+    position:static; width:30px;
+    color:white; font-size:15px; font-family:sans-serif;
+    text-decoration:none;
+    background-color:red; padding:5px 5px 5px 5px; 
+}
+
+div.bar {
+    position:absolute; top:0px; 
+    width:100%; height:50px;
+    background-color: rgba(255, 0, 0, 0.918);
+}
+
+div.catgry_bar {
+    position:absolute; top:655px; 
+    width:100%; height:70px;
+    background-color: rgba(255, 0, 0, 0.918);                
+}
+
+div.main_box {
+    position:absolute; top:840px; left:100px;
+    width:1200px; height:2000px;
+    display:flex; 
+    flex-wrap:wrap; align-content:flex-start;
+}
+
+div.box {
+    width:300px; height:400px;
+    display:flex; flex-direction:column;
+}
+
+div.footer {
+    position:absolute; top:3500px;
+    width:100%; height:700px;
+    background-color:red;
+}
+
+div.Email_box {
+    position:absolute; top:300px; left:100px;
+    width:200px; height:100px;
+    background-color:red;    
+}
+
+div.phone_box {
+    position:absolute; top:300px; left:500px;
+    width:250px; height:100px;
+    background-color:red;    
+}
+
+div.location_box {
+    position:absolute; top:300px; left:900px;
+    width:250px; height:100px;
+    background-color:red;    
+}
+
+div.essentials {
+    position:absolute; top:2900px; left:0px;
+    width:100%; height:600px;
+    background-color:yellowgreen;
+}
+
+img.ftched_img {
+    width:234px; height:234px;
+}
+
+span.ftched_pro_name {
+    position:static; 
+    font-family:sans-serif; font-size:medium; 
+    color:#666;
+}
+
+span.ftched_pro_price {
+    position:static; 
+    font-family:'Oswald'; font-size:medium; 
+    color:red;
+}
+
+input.search_box {
+    position:absolute; top:20px; left:150px; 
+    width:340px; height:35px;
+    border-style:solid; border-radius:25px; border-color:white;
+    padding-left:20px;
+}
+
+ol.list {
+    position:absolute; top:20px; left:600px;
+    color:white; font-size:30px; font-family:sans-serif; font-weight:bold;  
+}
